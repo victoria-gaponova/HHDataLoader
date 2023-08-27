@@ -9,7 +9,7 @@ if __name__ == '__main__':
     hh = HH()
     db_manager = DBManager()
     db_manager.connecting_to_bd()
-    user_input = int(input("Для работы со старыми данными из БД: нажмите любуюу клавишу\n"
+    user_input = int(input("Для работы со старыми данными из БД: нажмите любую клавишу\n"
                            "Для новых данных: 2\n"))
 
     if user_input == 2:
